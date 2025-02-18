@@ -1,0 +1,12 @@
+Scanner ler = new Scanner(System.in);
+		
+		String cpf;
+		
+		System.out.println("Digite o seu CPF:");
+		 cpf = ler.nextLine();
+
+		 System.out.println("Seu CPF formatado: ");
+		 System.out.print(cpf.trim().substring(0, 3)+".");
+		 System.out.print(cpf.trim().substring(3, 6)+".");
+		 System.out.print(cpf.trim().substring(6, 9 )+"-");
+		 System.out.print(cpf.trim().substring(9));
